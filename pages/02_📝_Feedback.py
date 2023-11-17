@@ -6,13 +6,11 @@ from utils import *
 
 
 st.set_page_config(
-        page_title="QueryKing | Contact",
+        page_title="SQLGPT | Contact",
         # page_icon="./assets/favicon.png",
         layout= "centered",
         initial_sidebar_state="expanded",
         menu_items={
-        'Get Help': 'https://github.com/smaranjitghose/QueryKing',
-        'Report a bug': "https://github.com/smaranjitghose/QueryKing/issues",
         'About': "## A minimalistic application to generate SQL queries using Generative AI built with Python and Streamlit"
         } )
 
